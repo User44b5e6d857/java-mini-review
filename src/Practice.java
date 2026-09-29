@@ -80,9 +80,12 @@ public class Practice {
     {
         for(int i = 0; i < words.length(); i++)
         {
-            
+            if(words[i] != 'A' && 'a')
+            {
+                return false;
+            }
         }
-        return false;
+        return true;
     }
 
     public static void main(String[] args) {
