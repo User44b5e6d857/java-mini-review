@@ -76,8 +76,12 @@ public class Practice {
      * @param words a array of words
      * @return true if every word starts with A (case-insensitive), false otherwise.
      */
-    public static boolean allStartWithA(String[] words) {
-        // TODO: Delete the dummy return statement and implement this method here!
+    public static boolean allStartWithA(String[] words) 
+    {
+        for(int i = 0; i < words.length(); i++)
+        {
+            
+        }
         return false;
     }
 
