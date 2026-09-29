@@ -17,7 +17,7 @@ public class Practice {
      * @param items an array of strings to print
      */
     public static void printItems(String[] items) {
-        for(int i = 0; i < items.length(); i++)
+        for(int i = 0; i < items.length; i++)
         {
             System.out.println(items[i]);
         }
@@ -78,7 +78,7 @@ public class Practice {
      */
     public static boolean allStartWithA(String[] words) 
     {
-        for(int i = 0; i < words.length(); i++)
+        for(int i = 0; i < words.length; i++)
         {
             if(words[i] != 'A' && 'a')
             {
