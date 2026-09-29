@@ -80,7 +80,7 @@ public class Practice {
     {
         for(int i = 0; i < words.length; i++)
         {
-            if(words[i].charAt(0) != 'A' && 'a')
+            if(words[i].charAt(0) != 'A' && words[i].charAt(0) != 'a')
             {
                 return false;
             }
